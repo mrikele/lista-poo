@@ -1,27 +1,36 @@
 public class Rectangle {
-    double largura;
-    double altura;
+    private double largura;
+    private double altura;
 
-    double getLargura(){
+    public double getLargura(){
         return this.largura;
     }
 
-    double getAltura(){
+    public double getAltura(){
         return this.altura;
     }
+    
+    public void setLargura(double largura){
+        this.largura = largura;
 
-    double area(){
-        double areaRet = largura*altura;
+    }
+
+    public void setAltura(double altura){
+        this.altura = altura;
+
+    }
+    public double area(){
+        double areaRet = getLargura()*getAltura();
         return areaRet;
     }
 
-    double perimetro(){
-        double perimetroRet = (altura+largura)*2;
+    public double perimetro(){
+        double perimetroRet = (getLargura()+getAltura())*2;
         return perimetroRet;
     }
 
-    double diagonal(){
-        double diagonalRet = Math.sqrt(Math.pow(altura, 2) + Math.pow(largura, 2)); 
+    public double diagonal(){
+        double diagonalRet = Math.sqrt(Math.pow(getAltura(), 2) + Math.pow(getLargura(), 2)); 
         return diagonalRet;
     }
 }

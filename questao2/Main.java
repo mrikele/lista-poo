@@ -9,8 +9,8 @@ public class Main {
         Rectangle rect = new Rectangle();
 
         System.out.println("Enter rectangle width and height:");
-        rect.largura = sc.nextDouble();
-        rect.altura = sc.nextDouble();
+        rect.setLargura(sc.nextDouble());
+        rect.setAltura(sc.nextDouble());
 
         System.out.printf("AREA = %.2f%n", rect.area());
         System.out.printf("PERIMETER = %.2f%n", rect.perimetro());
