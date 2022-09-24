@@ -9,10 +9,6 @@ public class Main {
         System.out.println(personIndividual);
         System.out.println(personLegal);
 
-        System.out.println(personLegal.isValid());
-        System.out.println(personIndividual.isValid());
-
-
     }
 }
         

@@ -6,8 +6,8 @@ public abstract class Person implements IEntityValidation{
     public java.lang.String toString() {
         return null;
     }
-    @Override
+    
     public Boolean isValid() {
-        return null;
+        return true;
     }
 }

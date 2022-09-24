@@ -10,6 +10,5 @@ public class PersonLegal extends Person {
      public java.lang.String toString() {
         return "{legal}, CNPJ: " + this.Cnpj;
  }
-    
-    }
+}
 
