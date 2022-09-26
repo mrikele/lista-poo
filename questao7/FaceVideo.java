@@ -1,7 +1,6 @@
 package questao7;
 
 public class FaceVideo implements IVideo{
-
     private final boolean[] bitsFace;
 
     public FaceVideo() {
@@ -20,11 +19,9 @@ public class FaceVideo implements IVideo{
               true, false, true, false, false, true, false, true, true, true, false
        };
     }
-
     public boolean[] getBitsFace() {
         return bitsFace;
     }
-
     @Override
     public String getContent() {
         // TODO Auto-generated method stub

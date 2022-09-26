@@ -1,7 +1,6 @@
 package questao7;
 
 public class YoutubeVideo implements IVideo{
-
     private final int[] bits;
 
     public YoutubeVideo() {
@@ -15,7 +14,6 @@ public class YoutubeVideo implements IVideo{
     public int[] getBits() {
        return bits;
     }
-
     @Override
     public String getContent() {
         // TODO Auto-generated method stub
