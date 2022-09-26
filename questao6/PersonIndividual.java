@@ -6,7 +6,11 @@ public class PersonIndividual extends Person {
     public PersonIndividual(String Cpf){
         this.Cpf=Cpf;
     }
-     public PersonIndividual(int i) {
+    public String getCpf() {
+        return Cpf;
+    }
+    public void setCpf(String Cpf){
+        this.Cpf=Cpf;
     }
     @Override
      public java.lang.String toString() {

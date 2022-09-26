@@ -1,11 +1,17 @@
 package questao4;
 
 public class Circulo extends AbstractShape {
-    public Circulo(String color) {
-        super(color);
-    }
-
     private double raio;
+
+    public Circulo(double raio){
+        this.raio=raio;
+    }
+    public double getRaio(){
+        return raio;
+    }
+    public void setRaio(double raio){
+        this.raio=raio;
+    }
 
     @Override
     public double Area() {

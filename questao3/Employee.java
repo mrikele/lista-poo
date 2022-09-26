@@ -38,7 +38,6 @@ public class Employee {
         System.out.printf("Update data: %S, %.2f", getNome(), getSalarioBruto());
     }
 
-
     public void Porcentagem(double porcentagem){
         this.setSalarioBruto(this.salarioLiquido() + (this.getSalarioBruto() * 0.10f));
 

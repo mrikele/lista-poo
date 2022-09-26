@@ -4,7 +4,7 @@ public abstract class Person implements IEntityValidation{
     public Person(){};
 
     public java.lang.String toString() {
-        return null;
+        return "Type: Person";
     }
     
     public Boolean isValid() {
