@@ -28,19 +28,16 @@ public class Employee {
     public void setImposto(double imposto){
         this.imposto=imposto;
     }
-
     public double salarioLiquido(){
         double salarioL = getSalarioBruto()-getImposto();
         return salarioL;
     }
-
     public void Exibe(){
         System.out.printf("Update data: %S, %.2f", getNome(), getSalarioBruto());
     }
-
     public void Porcentagem(double porcentagem){
-        this.setSalarioBruto(this.salarioLiquido() + (this.getSalarioBruto() * 0.10f));
-
+        this.setSalarioBruto((this.getSalarioBruto() * porcentagem));
     }
+
 }
 
