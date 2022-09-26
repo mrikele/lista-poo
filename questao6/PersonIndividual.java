@@ -16,7 +16,7 @@ public class PersonIndividual extends Person {
      public java.lang.String toString() {
         return "{individual}, CPF: " + this.Cpf;
      }
-    
+
     }
 
 
