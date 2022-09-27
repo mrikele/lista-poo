@@ -1,16 +1,16 @@
 package questao5;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class Client {
     private String name;
     private String email;
     private Date birthDate;
 
-    public Client(String name, String email, Date birthDate){
+    public Client(String name, String email, java.util.Date birth){
         this.name=name;
         this.email=email;
-        this.birthDate=birthDate;
+        this.birthDate=birth;
     }
     public String getName(){
         return this.name;
@@ -31,5 +31,4 @@ public class Client {
     public void setBirth(Date birthDate){
         this.birthDate=birthDate;
     }
-
 }
